@@ -84,18 +84,20 @@
 
     <div class="details_container">
         <div class="container">
-            <div class=" row product_detail">
+            <div class=" row g-5 product_detail">
                 <!-- DETAIL LEFT -->
-                <div class="product_detail_left col-sm-4">
+                <div class="product_detail_left col-sm-5">
                     <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2 product_detail_slide">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="/Image/detail1.png" alt="Hình ảnh sản phẩm chi tiết 1"></div>
                             <div class="swiper-slide"><img src="/Image/detail2.png" alt="Hình ảnh sản phẩm chi tiết 2"></div>
                             <div class="swiper-slide"><img src="/Image/detail3.png" alt="Hình ảnh sản phẩm chi tiết 3"></div>
                             <div class="swiper-slide"><img src="/Image/detail4.png" alt="Hình ảnh sản phẩm chi tiết 4"></div>
+                            <div class="swiper-slide"><img src="/Image/detail4.png" alt="Hình ảnh sản phẩm chi tiết 4"></div>
+                            <div class="swiper-slide"><img src="/Image/detail4.png" alt="Hình ảnh sản phẩm chi tiết 4"></div>
                         </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        <!-- <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div> -->
                     </div>
                     <div thumbsSlider="" class="swiper mySwiper product_detail_slide">
                         <div class="swiper-wrapper">
@@ -103,58 +105,91 @@
                             <div class="swiper-slide"><img src="/Image/detail2.png" alt="Thumbnail sản phẩm chi tiết 2"></div>
                             <div class="swiper-slide"><img src="/Image/detail3.png" alt="Thumbnail sản phẩm chi tiết 3"></div>
                             <div class="swiper-slide"><img src="/Image/detail4.png" alt="Thumbnail sản phẩm chi tiết 4"></div>
+                            <div class="swiper-slide"><img src="/Image/detail4.png" alt="Thumbnail sản phẩm chi tiết 4"></div>
+                            <div class="swiper-slide"><img src="/Image/detail4.png" alt="Thumbnail sản phẩm chi tiết 4"></div>
                         </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
                 <!-- END DETAIL LEFT -->
 
                 <!-- DETAIL RIGHT -->
-                <div class="product_detail_right col-sm-6">
-                    <div class="product_detail_info">
+                <div class="product_detail_right col-sm-7">
+                    <form class="product_detail_info">
                         <div class="product_detail_name">
-                            <h2>Yêu thích</h2>
-                            <h1>OCOP - Hạt Điều Rang Củi Hải Bình - Gói 500gr</h1>
+                            
+                            <p class="text-name"><span class="tag">Yêu thích</span> OCOP - Hạt Điều Rang Củi Hải Bình - Gói 500gr</p>
                         </div>
                         <div class="product_detail_review">
                             <div class="star_rating text-warning">
+                                <p class="total_rating text">(4.5)</p>
                                 <span>&#9733;</span>
                                 <span>&#9733;</span>
                                 <span>&#9733;</span>
                                 <span>&#9733;</span>
                                 <span>&#9734;</span>
-                                <p class="total_rating text">(4.5)</p>
+                                
                             </div>
                             <div class="sold">
                                 <p class="text-deleted">Đã bán: 1000</p>
                             </div>
                         </div>
+
+                        <hr>
+
                         <div class="product_price">
+
+                            <div class="price text-primary">450.000&#8363;</div>
                             <div class="discount">
+                                
                                 <div class="discount_price text-deleted">
-                                    <del>99.000&#8363;</del>
+                                    <del style="font-size: 1.4rem;">99.000&#8363;</del>
                                 </div>
                                 <div class="discount_tag"><small>GIẢM 11%</small></div>
+                                
                             </div>
-                            <div class="price text-primary">450.000&#8363;</div>
+                            
                         </div>
+
+                        <hr>
+
+                        <table class="detail_body">
+                            <tr class="product_location">
+                                <td>Gửi từ: </td>
+                                <td class="text">Hải Bình</td>
+                            </tr>
+                            <tr class="seller">
+                                <td>Người bán: </td>
+                                <td class="text"><a href="#">Củi Hải Bình</a></td>
+                            </tr>
+                        </table>
+                        
+
                         <div class="product_quantity">
                             <div class="quantity_input">
-                                <label for="quantity">Số lượng:</label>
+                                <label for="quantity">Số lượng:  </label>
                                 <input id="quantity" type="number" value="1" min="1" max="50">
                             </div>
+                            <div class="available">
+                                <p class="text-deleted">1000 sản phẩm có sẵn</p>
+    
+                            </div>
                         </div>
+
                         <div class="product_buying">
                             <div class="add_to_cart">
                                 <button class="btn btn-primary">
                                     <span class="material-icons-sharp">add_shopping_cart</span>
-                                    Thêm vào giỏ hàng
+                                    <p>Thêm vào giỏ hàng</p>
                                 </button>
                             </div>
                             <div class="buy">
-                                <button class="btn btn-primary">Mua ngay</button>
+                                <button class="btn btn-primary"><p>Mua ngay</p></button>
                             </div>
                         </div>
-                    </div>
+                
+                    </form>
                 </div>
                 <!-- END DETAIL RIGHT -->
             </div>
