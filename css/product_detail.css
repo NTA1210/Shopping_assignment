@@ -1,0 +1,9 @@
+
+/* =====================PRODUCT DETAIL================ */
+
+.product_detail{
+    margin-top: 20px;
+    border-radius: var(--border-radius);
+    background: var(--white-color);
+    padding: 20px;
+}
