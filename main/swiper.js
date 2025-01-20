@@ -54,6 +54,24 @@
         },
       });
 
+
+      var swiper = new Swiper(".mySwiper.store_product", {
+        cssMode: true,
+        navigation: {
+          nextEl: ".mySwiper.store_product .swiper-button-next",
+          prevEl: " .mySwiper.store_product .swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+        slidesPerView: 5,      // Hiển thị 5 slide mỗi lần
+        slidesPerGroup: 1,     // Chuyển 1 slide mỗi lần
+        spaceBetween: 10,      // Khoảng cách giữa các slide (tuỳ chỉnh)
+      });
+
+
       window.addEventListener('scroll',()=>{
         document.querySelector('header').classList.toggle('window-scroll',window.scrollY>0);
     })
