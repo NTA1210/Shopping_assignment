@@ -169,11 +169,13 @@
 
 /* STORE REVIEWS */
 
-.content_container{
-    width: 100%;
+.detail_content_container,
+.review_content_container{
+    margin-top: 25px;
 }
 
-.product_detail_content{
+.product_details_content,
+.product_reviews_content{
     background: var(--white-color);
     border-radius: var(--border-radius);
     padding: 25px;
