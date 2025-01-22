@@ -15,6 +15,13 @@
 
 }
 
+.original_ul{
+    list-style: disc outside none;
+    & li{
+        list-style-type:circle ;
+    }
+}
+
 p{
     margin: 0;
 }
@@ -446,6 +453,7 @@ section{
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 0.8rem;
 }
 .product .product_info .product_rate p{
     font-size: 0.8rem;
