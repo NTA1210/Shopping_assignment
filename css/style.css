@@ -410,6 +410,7 @@ section{
     border-radius: var(--border-radius) ;
     overflow: hidden;
     cursor: pointer;
+    position: relative;
 }
 .product .product_info{
     width: 100%;
@@ -459,6 +460,33 @@ section{
     font-size: 0.8rem;
 }
 
+.product .product_actions{
+    position: absolute;
+    top: 50px;
+    z-index: 10;
+    padding: 4px;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    background: transparent;
+    right: -100px;
+    transition: all 0.3s ease;
+
+
+    & span{
+        background: var(--white-color);
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    & span:hover{
+        background: var(--color-primary);
+        color: var(--white-color);
+    }
+}
+
+.product:hover .product_actions{
+    right: 0;
+}
 
 
 .view_more{

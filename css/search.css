@@ -16,6 +16,25 @@
     height: fit-content;
     padding: 25px;
 }
+.search .search_type .categories li a{
+    transition: all 500ms ease-in-out;
+}
+.search .search_type .categories li a:hover {
+    /* animation: scaleUp 500ms cubic-bezier(0.25, 0.8, 0.25, 1) ease-out;
+     */
+    transform: scale3d(1.2)  ;
+    color: var(--color-primary);
+    /* font-weight: 600; */
+
+}
+
+@keyframes scaleUp {
+    0% { transform: scale3d(1); }
+    50% { transform: scale3d(1.05); }  /* Điều chỉnh độ phóng đại nhẹ */
+    100% { transform: scale3d(1.1); }  /* Dừng lại ở mức độ phóng đại nhẹ */
+}
+
+
 .search .search_type  .search_price_range form{
     display: flex;
     flex-direction: column;
