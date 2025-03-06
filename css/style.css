@@ -315,7 +315,52 @@ header .top__header .top_header_content span:hover a{
 /*                                               MAIN                                                  */
 /* ===================================================================================================== */
 
+/* BANNER */
+.sec_slide_home__main .banner{
+    background-image: url('/Image/banner-1.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: var(--border-radius);
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    
+
+    & .title{
+        font-size: 3rem;
+        font-weight: 600;
+        color: var(--background-color);
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        top: -20px;
+        z-index: 2;
+    }
+
+    & .title:hover{
+
+    }
+
+    & .blur{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.376), rgba(0, 0, 0, 0));
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    
+}
+
+
+
 /* DISCOUNT */
+
 .discount{
     display: flex;
     align-items: center;
